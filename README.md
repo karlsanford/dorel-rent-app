@@ -16,7 +16,7 @@ Use:
 
 1. Links to this application should have two query string parameters, 'location' and 'propshortname'. Both are case sensitive.
   
-  http://yoursite.com/yourapplicationpage.php?location=propertyLocationCode@propshortname=PropertyShortName
+  http://yoursite.com/yourapplicationpage.php?location=propertyLocationCode&propshortname=PropertyShortName
 
 2. This plugin requires bootstrap.
 3. For testing add env=test to the query string. This will make the following changes:
