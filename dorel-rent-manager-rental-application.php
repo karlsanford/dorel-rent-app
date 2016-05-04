@@ -26,7 +26,11 @@ function cf_shortcode(){
 	include_once 'includes/captcha-error-postback.php';
 
 	//load js file that sets hidden date field and property name from qs parameter value
-	include_once 'includes/client-scripts.php';
+		//Use this for production
+		wp_enqueue_script('the_js', plugins_url('/includes/rm-application.js',__FILE__) );
+		
+		//use this for testing outside of wordpress
+		//include_once 'includes/client-scripts.php';
 	
 }
 
@@ -34,7 +38,7 @@ function cf_shortcode(){
 //cf_shortcode();
 
 
-//comment this out for test outside of wordpress
+//comment this out for testing outside of wordpress
 add_shortcode('dorel_rent_manager_rental_application','cf_shortcode');
  
 ?>
