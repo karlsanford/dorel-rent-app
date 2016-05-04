@@ -1,7 +1,7 @@
 <?php
 	/*
 Plugin Name: Dorel Rent Manager Rental Application
-Plugin URI:  http://sanfordconsutling.com/wp-plugins/dorel_rent_manager_rental_application
+Plugin URI:  https://github.com/karlsanford/dorel-rent-app
 Description: Adds application form functionality for dorel properties
 Version:     1.0
 Author:      Karl Sanford
@@ -13,17 +13,28 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 function cf_shortcode(){
 
-	//ob_start();
+	//calls rentmanager.com to get captcha image and code
 	include_once 'includes/captcha-setup.php';
+	
+	//pulls 'location' and 'shortpropname' from query string and sets hidden fields
 	include_once 'includes/query-string-parameters.php';
+
+	//main application form
 	include_once 'includes/application-form.php';
+
+	//handles error with the captcha
 	include_once 'includes/captcha-error-postback.php';
+
+	//load js file that sets hidden date field and property name from qs parameter value
 	include_once 'includes/client-scripts.php';
-	//return ob_get_clean();
+	
 }
 
-cf_shortcode();
+//uncomment for testing outside of wordpress
+//cf_shortcode();
 
-//add_shortcode('dorel_rent_manager_rental_application','cf_shortcode');
+
+//comment this out for test outside of wordpress
+add_shortcode('dorel_rent_manager_rental_application','cf_shortcode');
  
 ?>

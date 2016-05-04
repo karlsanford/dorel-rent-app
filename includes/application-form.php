@@ -108,7 +108,7 @@
 					<div class="col-md-4 col-sm-6">
 						<div class="form-group">
 							<label for="rmwebsvc_hphone" class="required">Phone Number</label>
-							<input id="rmwebsvc_hphone" class="input-phone form-control" name="rmwebsvc_hphone" type="tel" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" required />
+							<input id="rmwebsvc_hphone" class="input-phone form-control" name="rmwebsvc_hphone" type="tel" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" required />
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6">
@@ -210,7 +210,7 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="form-group">
                             <label for="rmwebsvc_pudf_Landlord_Phone" class="required">Landlord/Manager Phone</label>
-                            <input id="rmwebsvc_pudf_Landlord_Phone" class="form-control" name="rmwebsvc_pudf_Landlord_Phone" type="tel" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" required=required />
+                            <input id="rmwebsvc_pudf_Landlord_Phone" class="form-control" name="rmwebsvc_pudf_Landlord_Phone" type="tel" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" required=required />
                         </div>
                     </div>
 				</div>
@@ -233,7 +233,7 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="form-group">
                             <label for="rmwebsvc_pudf_Current_Employer_Phone" class="required">Employer Phone</label>
-                            <input id="rmwebsvc_pudf_Current_Employer_Phone" class="input-phone form-control" name="rmwebsvc_pudf_Current_Employer_Phone" type="tel" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" required=required />
+                            <input id="rmwebsvc_pudf_Current_Employer_Phone" class="input-phone form-control" name="rmwebsvc_pudf_Current_Employer_Phone" type="tel" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" required=required />
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
@@ -286,7 +286,7 @@
 					<div class="col-md-6 col-sm-6">
 						<div class="form-group">
 							<label for="rmwebsvc_pudf_Reference_1_Phone" class="required">Reference Phone 1</label>
-							<input id="rmwebsvc_pudf_Reference_1_Phone" class="input-phone required form-control" name="rmwebsvc_pudf_Reference_1_Phone" type="text" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" required autocomplete="off"/>
+							<input id="rmwebsvc_pudf_Reference_1_Phone" class="input-phone required form-control" name="rmwebsvc_pudf_Reference_1_Phone" type="text" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" required autocomplete="off"/>
 						</div>
 					</div>
 				</div>
@@ -300,7 +300,7 @@
 					<div class="col-md-6 col-sm-6">
 						<div class="form-group">
 							<label for="rmwebsvc_pudf_Reference_2_Phone" class="required">Reference Phone 2</label>
-							<input id="rmwebsvc_pudf_Reference_2_Phone" class="input-phone required form-control" name="rmwebsvc_pudf_Reference_2_Phone" type="tel" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" required autocomplete="off"/>
+							<input id="rmwebsvc_pudf_Reference_2_Phone" class="input-phone required form-control" name="rmwebsvc_pudf_Reference_2_Phone" type="tel" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" required autocomplete="off"/>
 						</div>
 					</div>
 				</div>
@@ -318,7 +318,7 @@
 					<div class="col-md-6 col-sm-6">
 						<div class="form-group">
 							<label for="rmwebsvc_pudf_Emergency_Contact_Phone" class="required">Phone</label>
-							<input id="rmwebsvc_pudf_Emergency_Contact_Phone" class="input-phone form-control" name="rmwebsvc_pudf_Emergency_Contact_Phone" type="tel" pattern="[0-9]{3}-?[0-9]{3}-?[0-9]{4}" autocomplete="off" required />
+							<input id="rmwebsvc_pudf_Emergency_Contact_Phone" class="input-phone form-control" name="rmwebsvc_pudf_Emergency_Contact_Phone" type="tel" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" autocomplete="off" required />
 						</div>
 					</div>
 				</div>
